@@ -4,11 +4,11 @@ from dash import dcc
 import plotly.graph_objs as go
 
 ########### Define your variables
-beers=['Chesapeake Stout', 'Snake Dog IPA', 'Imperial Porter', 'Double Dog IPA']
-ibu_values=[35, 60, 85, 75]
-abv_values=[5.4, 7.1, 9.2, 4.3]
-color1='darkred'
-color2='orange'
+beers=['One', 'Two', 'Three', 'Four']
+ibu_values=[35, 20, 85, 30]
+abv_values=[5.4, 7.1, 9.9, 4.3]
+color1='blue'
+color2='purple'
 mytitle='Beer Comparison'
 tabtitle='beer!'
 myheading='Flying Dog Beers'
